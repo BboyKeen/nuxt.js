@@ -134,8 +134,9 @@ const transformPolicyObject = (policies, cspScriptSrcHashes) => {
 
   const additionalPolicies = userHasDefinedScriptSrc ? policies['script-src'] : []
 
-  // Self is always needed for inline-scripts, so add it, no matter if the user specified script-src himself.
-  const hashAndPolicyList = cspScriptSrcHashes.concat(`'self'`, additionalPolicies)
+  if (userHasDefinedScriptSrc) {
+    new Set(policies['script-src']).forEach(src => hashAndPolicySet.add(src))
+  }
 
-  return { ...policies, 'script-src': hashAndPolicyList }
+  return { ...policies, 'script-src': Array.from(hashAndPolicySet) }
 }
