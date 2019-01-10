@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/vue-renderer",
-  "version": "2.3.4",
+  "version": "2.3.4-with-csp-sha-fix",
   "repository": "nuxt/nuxt.js",
   "license": "MIT",
   "files": [

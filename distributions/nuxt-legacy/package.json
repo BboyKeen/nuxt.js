@@ -1,6 +1,6 @@
 {
   "name": "nuxt-legacy",
-  "version": "2.3.4",
+  "version": "2.3.4-with-csp-sha-fix",
   "description": "Legacy build of Nuxt.js for Node.js < 8.0.0",
   "keywords": [
     "nuxt",
@@ -51,7 +51,7 @@
     "@nuxt/builder": "2.3.4",
     "@nuxt/cli": "2.3.4",
     "@nuxt/common": "2.3.4",
-    "@nuxt/core": "2.3.4",
+    "@nuxt/core": "2.3.4-with-csp-sha-fix",
     "@nuxt/generator": "2.3.4",
     "@nuxt/webpack": "2.3.4",
     "@nuxtjs/opencollective": "^0.2.0"

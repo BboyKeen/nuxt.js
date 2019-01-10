@@ -1,5 +1,5 @@
 {
-  "version": "2.3.4",
+  "version": "2.3.4-with-csp-sha-fix",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "conventionalCommits": true,

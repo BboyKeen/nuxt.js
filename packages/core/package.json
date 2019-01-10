@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/core",
-  "version": "2.3.4",
+  "version": "2.3.4-with-csp-sha-fix",
   "repository": "nuxt/nuxt.js",
   "license": "MIT",
   "files": [
@@ -10,8 +10,8 @@
   "dependencies": {
     "@nuxt/common": "2.3.4",
     "@nuxt/config": "2.3.4",
-    "@nuxt/server": "2.3.4",
-    "@nuxt/vue-renderer": "2.3.4",
+    "@nuxt/server": "2.3.4-with-csp-sha-fix",
+    "@nuxt/vue-renderer": "2.3.4-with-csp-sha-fix",
     "@nuxtjs/devalue": "^1.1.0",
     "consola": "^2.3.0",
     "debug": "^4.1.0",

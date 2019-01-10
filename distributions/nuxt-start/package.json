@@ -1,6 +1,6 @@
 {
   "name": "nuxt-start",
-  "version": "2.3.4",
+  "version": "2.3.4-with-csp-sha-fix",
   "description": "Starts Nuxt.js Application in production mode",
   "keywords": [
     "nuxt",
@@ -48,7 +48,7 @@
   "dependencies": {
     "@nuxt/cli": "2.3.4",
     "@nuxt/common": "2.3.4",
-    "@nuxt/core": "2.3.4"
+    "@nuxt/core": "2.3.4-with-csp-sha-fix"
   },
   "engines": {
     "node": ">=8.0.0",
